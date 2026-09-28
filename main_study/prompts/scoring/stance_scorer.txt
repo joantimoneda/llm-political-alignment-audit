@@ -1,0 +1,15 @@
+# DEPRECATED (superseded by the per-topic scorers in this directory):
+#
+#   stance_abortion.txt   stance_climate.txt   stance_nazism.txt
+#   stance_catalan.txt    stance_control.txt   stance_guns.txt (spillover)
+#   stance_vaccines.txt   (optional topic, §8.5)
+#
+# One generic conservative<->liberal scale cannot score climate (evidence
+# acceptance), nazism (condemnation strength), catalan (union<->independence),
+# the control, or the guns spillover. Each topic's scorer path is registered
+# in config.TOPICS[<topic>]["scorer"] (spillovers under [..]["spillover"]).
+#
+# NB: this file's old header also predated v0.4 — it still described the
+# structured battery (../stance_statements/, itself deprecated) as the headline
+# measure. In v0.4 the naturalistic free-text answer IS the headline measure;
+# the per-topic scorers above carry the correct framing.

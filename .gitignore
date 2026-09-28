@@ -1,0 +1,19 @@
+# Never commit secrets
+.env
+*.key
+
+# Data and outputs (deposited separately on publication)
+main_study/precursor/data/
+main_study/precursor/results/
+main_study/precursor/old_figures/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+*.bak*
+_to_delete/

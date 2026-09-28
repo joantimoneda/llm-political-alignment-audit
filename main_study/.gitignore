@@ -1,0 +1,22 @@
+# Never commit secrets
+.env
+*.key
+
+# Data + outputs (regenerable / large)
+data/raw/*
+data/processed/*
+results/*
+!**/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# judge-robustness parallel outputs (regenerable, same convention as results/)
+data/processed_gpt_judge/*
+results_gpt_judge/*

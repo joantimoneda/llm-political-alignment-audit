@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Auditing Political Alignment in LLM Assistants: code and preregistration"
+authors:
+  - family-names: Timoneda
+    given-names: Joan C.
+    affiliation: Purdue University
+    email: timoneda@purdue.edu
+license: MIT
+repository-code: https://github.com/joantimoneda/llm-political-alignment-audit
+preferred-citation:
+  type: article
+  title: "Auditing Political Alignment in LLM Assistants: Engagement, Stance, and User Identity"
+  authors:
+    - family-names: Timoneda
+      given-names: Joan C.
+  journal: "arXiv preprint"
+  year: 2026
+  identifiers:
+    - type: other
+      value: "arXiv:2609.23039"
+  url: https://arxiv.org/abs/2609.23039
